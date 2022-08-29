@@ -58,6 +58,10 @@ function App() {
     <div className={styles.App}>
       <main className={styles.container}>
         <span>
+          This mini app uses useReducer() for state management of the colour
+          changes
+        </span>
+        <span>
           <button onClick={blue}>Blue</button>
           <button onClick={red}>Red</button>
           <button onClick={yellow}>Yellow</button>
