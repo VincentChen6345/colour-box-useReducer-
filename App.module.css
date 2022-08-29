@@ -8,8 +8,12 @@
 
 .container {
   font-size: 10rem;
+  display: flex;
+  flex-direction: column;
 }
-
+.description {
+  font-size: 2rem;
+}
 button {
   font-size: 3rem;
   margin: 1rem;

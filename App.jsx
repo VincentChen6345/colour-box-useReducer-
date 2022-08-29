@@ -57,7 +57,7 @@ function App() {
   return (
     <div className={styles.App}>
       <main className={styles.container}>
-        <span>
+        <span className={styles.description}>
           This mini app uses useReducer() for state management of the colour
           changes
         </span>
